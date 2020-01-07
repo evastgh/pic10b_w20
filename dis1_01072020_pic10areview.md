@@ -4,7 +4,7 @@
 int a = 5, b = 1;
 a = ++b;
 b = a++;
-cout << a << b; // should get 22
+cout << a << b; // should get 32
 ```
 * passing by reference to a function
 * scope, global variables
