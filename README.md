@@ -6,3 +6,4 @@ Useful reading material:
 * [how does delete[] know the size of the operand array](https://stackoverflow.com/questions/197675/how-does-delete-know-the-size-of-the-operand-array)
 * [NULL vs nullptr](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2007/n2431.pdf)
 * [What happens if I never call close on an open file stream](https://stackoverflow.com/questions/28253569/what-happens-if-i-never-call-close-on-an-open-file-stream)
+* [Quick-sort with Hungarian (Küküllőmenti legényes) folk dance](https://www.youtube.com/watch?v=ywWBy6J5gz8)
