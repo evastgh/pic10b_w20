@@ -58,6 +58,15 @@ public:
 	   @return an iterator pointing past the end of the list
 	*/
 	Iterator end();
+
+	~List() {
+		Node* to_be_deleted = first;
+		while (to_be_deleted != NULL) {
+			Node* next_to_be_deleted = to_be_deleted->next;
+			delete to_be_deleted;
+			to_be_deleted = next_to_be_deleted;
+		}
+	}
 private:
 	Node* first;
 	Node* last;
@@ -273,7 +282,7 @@ int main()
 		cout << pos.get() << "\n";
 
 
-	// cout << staff;
+	cout << staff;
 
 	/*
 	staff.push_front("Tom");
